@@ -18,8 +18,7 @@ export default function TabLayout() {
       }}
       sceneContainerStyle={{
         backgroundColor: Colors[colorScheme ?? 'light'].background,
-      }}
-      initialRouteName="messages">
+      }}>
       <Tabs.Screen
         name="messages"
         options={{
